@@ -19,7 +19,6 @@ public class ApachePOIReaderForLoop {
             return null;
         }
 
-        Iterator<Row> rowIterator;
         List<Employee> list = new ArrayList<>();
         XSSFSheet sheet = workbook.getSheet(sheetName);
 
