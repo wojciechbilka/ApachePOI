@@ -13,7 +13,8 @@ public class Example {
         );
         List<Employee> readList;
         ApachePOIWriter.creatingFile(employees, FILE_PATH);
-        readList = ApachePOIReader.readFile(FILE_PATH, "Employees");
+        // readList = ApachePOIReaderIterator.readFile(FILE_PATH, "Employees");
+        readList = ApachePOIReaderForLoop.readFile(FILE_PATH, "Employees");
         System.out.println(readList);
     }
 }
