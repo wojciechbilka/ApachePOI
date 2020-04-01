@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class ApachePOIReader {
+public class ApachePOIReaderIterator {
 
     public static List<Employee> readFile(String path, String sheetName) {
         XSSFWorkbook workbook;
